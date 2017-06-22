@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="66fbeffb-8999-485a-80fb-49be8d29d67e" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:61398/StreamService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="StreamService.disco" MetadataType="Disco" ID="92d08897-1f46-4b81-8db6-6c257e922de6" SourceId="1" SourceUrl="http://localhost:61398/StreamService.svc?disco" />
+    <MetadataFile FileName="StreamService.xsd" MetadataType="Schema" ID="30d4bf4f-80f1-4529-9781-ca8743632f7d" SourceId="1" SourceUrl="http://localhost:61398/StreamService.svc?xsd=xsd0" />
+    <MetadataFile FileName="StreamService1.xsd" MetadataType="Schema" ID="3857cb6b-c14c-47e2-a700-6ec05def46d8" SourceId="1" SourceUrl="http://localhost:61398/StreamService.svc?xsd=xsd2" />
+    <MetadataFile FileName="StreamService2.xsd" MetadataType="Schema" ID="4ae738a2-651d-4e14-aaa2-93e285e1b859" SourceId="1" SourceUrl="http://localhost:61398/StreamService.svc?xsd=xsd1" />
+    <MetadataFile FileName="StreamService.wsdl" MetadataType="Wsdl" ID="80e693db-230a-4e15-afa3-f124a91b3492" SourceId="1" SourceUrl="http://localhost:61398/StreamService.svc?wsdl" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

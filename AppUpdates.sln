@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26228.4
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppUpdates.UpdateService", "AppUpdates.UpdateService\AppUpdates.UpdateService.csproj", "{65E4DDBB-D384-41F7-A88B-BA8C9F64B3F8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppUpdates.Client", "AppUpdates.Client\AppUpdates.Client.csproj", "{5B85177E-B91D-453C-99B3-076D12B3ACD9}"
+	ProjectSection(ProjectDependencies) = postProject
+		{65E4DDBB-D384-41F7-A88B-BA8C9F64B3F8} = {65E4DDBB-D384-41F7-A88B-BA8C9F64B3F8}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{65E4DDBB-D384-41F7-A88B-BA8C9F64B3F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65E4DDBB-D384-41F7-A88B-BA8C9F64B3F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65E4DDBB-D384-41F7-A88B-BA8C9F64B3F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65E4DDBB-D384-41F7-A88B-BA8C9F64B3F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B85177E-B91D-453C-99B3-076D12B3ACD9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B85177E-B91D-453C-99B3-076D12B3ACD9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B85177E-B91D-453C-99B3-076D12B3ACD9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B85177E-B91D-453C-99B3-076D12B3ACD9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
